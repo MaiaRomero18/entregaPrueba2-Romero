@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block content %}
+<title>INSTITUTO DE INGLES</title>
+<head>
+    <link href="{% static 'styleHome.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+    <img src="{% static 'fondo.jpg' %}" alt="fondo">
+    <div>
+        <h1>¡BIENVENIDOS AL INSTITUTO C&E!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad possimus modi ducimus. Fugit voluptatibus eos odit cumque eaque deleniti nobis, esse non dignissimos aspernatur itaque enim similique accusantium quidem minus.</p>
+    </div>
+    <div class='fondo'>
+        <div>
+            <button class="bnt1">
+                <span>CONOCÉ MÁS</span>
+            </button>
+        </div>
+    </div>  
+</body>
+
+{% endblock %}
